@@ -1,0 +1,190 @@
+@import "reset.css"
+@import "bourbon/bourbon"
+
+body
+	font-family: "MuseoSansRegular", sans-serif
+	font-weight: normal
+	font-size: 22px
+	line-height: 1
+	color: #645f5f
+	min-width: 320px
+	position: relative
+	line-height: 1
+	-webkit-font-smoothing: antialised
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	
+body input:required:valid,
+body textarea:required:valid
+	
+
+.hidden
+	display: none
+
+.left
+	float: left
+.right
+	float: right
+
+.container
+	width: 100%
+	max-width: 1170px
+	margin: 0 auto
+	overflow: hidden
+
+.header
+	background-color: #141a1d
+	overflow: hidden
+	.logo
+		cursor: pointer
+		font-size: 0
+		a
+			display: block
+	.main-menu
+		display: block
+		margin-right: 150px
+		ul
+			font-size: 0
+		li
+			display: inline-block
+			font-size: 24px
+			margin-left: 20px
+			&:first-child
+				margin-left: 0
+			a
+				display: block
+				text-transform: uppercase
+				color: #637076
+				line-height: 110px
+				+transition(all .5s ease)
+				&:hover
+					color: #fff
+
+.main-slider
+	position: relative
+	.carousel-item
+		position: relative
+		outline: none
+		overflow: hidden
+		min-height: 698px
+		h1
+			display: block
+			max-width: 1170px
+			position: absolute
+			top: 0
+			text-transform: uppercase
+			font-size: 92px
+			line-height: 98px
+			font-family: 'MuseoSansBlack'
+			color: #fff
+			margin-top: 200px
+	.arrows
+		position: absolute
+		bottom: 45px
+		width: 100%
+		line-height: 0
+	.btn-prev
+		display: block
+		width: 69px
+		height: 69px
+		background: url(../img/arrow-prev.png) no-repeat center
+		background-size: cover
+		display: inline-block
+		opacity: .45
+		cursor: pointer
+		+transition(all .5s ease)
+		&:hover
+			opacity: .85
+	.btn-next
+		@extend .btn-prev
+		background: url(../img/arrow-next.png) no-repeat center
+
+.offer
+	background-color: #ff5722
+	padding: 70px 0
+	h3
+		font-family: 'MuseoSansBold'
+		font-size: 38px
+		color: #fff
+		text-transform: uppercase
+		display: inline-block
+		max-width: 750px
+	a.btn
+		display: inline-block
+		float: right
+		width: 100%
+		max-width: 255px
+		text-align: center
+		text-transform: uppercase
+		color: #fff
+		font-size: 28px
+		line-height: 74px
+		border: 2px solid #fff
+		background-color: transparent
+		+transition(all .5s ease)
+		&:hover
+			background-color: #fff
+			color: #ff5722
+
+.content
+	background: url(../img/texture.jpg)
+	padding: 130px 0
+	h2
+		font-family: 'MuseoSansLight'
+		font-size: 72px
+		text-transform: uppercase
+		color: #263238
+		margin-bottom: 30px
+		span
+			font-family: 'MuseoSansBlack'
+	p.info
+		line-height: 30px
+	.items
+		margin-top: 90px
+		font-size: 0
+	.content-item
+		display: inline-block
+		width: 25%
+		max-width: 270px
+		margin-right: 30px
+		margin-bottom: 30px
+		&:nth-child(4n)
+			margin-right: 0
+		.img-wrapper
+			width: 100%
+			max-height: 270px
+			overflow: hidden
+			margin-bottom: 50px
+		img
+			width: 100%
+			height: auto
+		h3
+			font-family: 'MuseoSansBlack'
+			font-size: 30px
+			color: #03a9f4
+			margin-bottom: 10px
+		h4
+			font-size: 18px
+			font-family: 'MuseoSansBold'
+			color: #211f1f
+			margin-bottom: 10px
+		p
+			font-size: 14px
+			line-height: 21px
+			color: #211f1f
+			margin-bottom: 25px
+		a.btn
+			font-family: 'MuseoSansLight'
+			font-size: 16px
+			line-height: 50px
+			text-align: center
+			text-transform: uppercase
+			color: #fff
+			display: block
+			max-width: 145px
+			background-color: #ff5722
+			+transition(all .5s ease)
+			&:hover
+				background-color: #03a9f4
+

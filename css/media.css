@@ -1,0 +1,245 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1550px) {
+	.header .main-menu{
+		margin-right: 30px
+	}
+
+	.header .main-menu li{
+		font-size: 17px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.container{
+		max-width: 970px
+	}
+
+	.header .logo{
+		max-width: 20%;
+		min-width: 198px;
+	}
+
+	header .logo img{
+		width: 100%;
+		height: auto;
+	}
+
+	.header .main-menu li a{
+		line-height: 49px;
+	}
+
+	.main-slider .carousel-item h1{
+		margin-top: 150px;
+	}
+
+	.offer h3{
+		max-width: 700px
+	}
+
+	.content .content-item{
+		max-width: 220px
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.container{
+		max-width: 750px;
+	}
+
+	.header .main-menu{
+		text-align: right;
+	}
+
+	.header .main-menu ul{
+		text-align: right;
+		display: none;
+	}
+
+	.header .main-menu li{
+		display: block;
+	}
+
+	.header .main-menu li a{
+		line-height: 30px;
+	}
+
+	.main-mnu-button{
+		display: inline-block;
+		text-align: right;
+		background: none;
+		border: none;
+		outline: none;
+		font-size: 28px;
+		color: #637076;
+		line-height: 47px;
+	}
+
+	.main-slider .carousel-item img{
+		width: 100%;
+		height: auto;
+	}
+
+	.main-slider .carousel-item h1{
+		font-size: 50px;
+		line-height: 50px;
+		margin-top: 50px;
+	}
+
+	.main-slider .carousel-item{
+		min-height: initial;
+	}
+
+	.main-slider .arrows{
+		bottom: 30px;
+	}
+
+	.main-slider .btn-prev, .main-slider .btn-next{
+		width: 49px;
+		height: 49px;
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+
+	.offer h3{
+		max-width: 475px;
+	}
+
+	.content{
+		padding: 40px 0;
+	}
+
+	.content h2{
+		font-size: 65px
+	}
+
+	.content .items{
+		margin-top: 30px;
+	}
+
+	.content .content-item{
+		width: 50%;
+		max-width: 360px;
+	}
+
+	.content .content-item:nth-child(2n){
+		margin-right: 0;
+	}
+
+	.content .content-item .img-wrapper{
+		margin-bottom: 20px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.content .content-item{
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.content h2{
+		text-align: center;
+	}
+
+
+	.content .content-item{
+		text-align: center;
+	}
+
+	.main-slider .carousel-item h1{
+		font-size: 30px;
+		line-height: 30px;
+		margin-top: 20px;
+	}
+
+	.main-slider .arrows{
+		bottom: 15px;
+	}
+
+	.main-slider .btn-prev, .main-slider .btn-next{
+		width: 30px;
+		height: 30px;
+	}
+
+	.offer{
+		padding: 30px 0;
+	}
+
+	.offer h3{
+		min-width: 100%;
+		text-align: center;
+	}
+
+	.offer a.btn{
+		margin: 20px auto 0;
+		display: block;
+		float: none;
+	}
+
+	.content h2{
+		font-size: 30px
+	}
+
+	body{
+		font-size: 16px
+	}
+
+	.content p.info{
+		line-height: 20px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.main-slider .carousel-item{
+		min-height: 200px;
+		background-color: #755e4a;
+	}
+
+	.main-slider .carousel-item img{
+		display: none;
+	}
+
+	.offer h3{
+		font-size: 27px
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 993px) {
+	.header .main-menu ul{
+		display: block !important;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

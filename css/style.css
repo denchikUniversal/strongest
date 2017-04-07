@@ -1,0 +1,257 @@
+@import url(reset.css);
+body {
+  font-family: "MuseoSansRegular", sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 1;
+  color: #645f5f;
+  min-width: 320px;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialised;
+}
+
+.hidden {
+  display: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #141a1d;
+  overflow: hidden;
+}
+
+.header .logo {
+  cursor: pointer;
+  font-size: 0;
+}
+
+.header .logo a {
+  display: block;
+}
+
+.header .main-menu {
+  display: block;
+  margin-right: 150px;
+}
+
+.header .main-menu ul {
+  font-size: 0;
+}
+
+.header .main-menu li {
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.header .main-menu li:first-child {
+  margin-left: 0;
+}
+
+.header .main-menu li a {
+  display: block;
+  text-transform: uppercase;
+  color: #637076;
+  line-height: 110px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.header .main-menu li a:hover {
+  color: #fff;
+}
+
+.main-slider {
+  position: relative;
+}
+
+.main-slider .carousel-item {
+  position: relative;
+  outline: none;
+  overflow: hidden;
+  min-height: 698px;
+}
+
+.main-slider .carousel-item h1 {
+  display: block;
+  max-width: 1170px;
+  position: absolute;
+  top: 0;
+  text-transform: uppercase;
+  font-size: 92px;
+  line-height: 98px;
+  font-family: 'MuseoSansBlack';
+  color: #fff;
+  margin-top: 200px;
+}
+
+.main-slider .arrows {
+  position: absolute;
+  bottom: 45px;
+  width: 100%;
+  line-height: 0;
+}
+
+.main-slider .btn-prev, .main-slider .btn-next {
+  display: block;
+  width: 69px;
+  height: 69px;
+  background: url(../img/arrow-prev.png) no-repeat center;
+  background-size: cover;
+  display: inline-block;
+  opacity: .45;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.main-slider .btn-prev:hover, .main-slider .btn-next:hover {
+  opacity: .85;
+}
+
+.main-slider .btn-next {
+  background: url(../img/arrow-next.png) no-repeat center;
+}
+
+.offer {
+  background-color: #ff5722;
+  padding: 70px 0;
+}
+
+.offer h3 {
+  font-family: 'MuseoSansBold';
+  font-size: 38px;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  max-width: 750px;
+}
+
+.offer a.btn {
+  display: inline-block;
+  float: right;
+  width: 100%;
+  max-width: 255px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 28px;
+  line-height: 74px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.offer a.btn:hover {
+  background-color: #fff;
+  color: #ff5722;
+}
+
+.content {
+  background: url(../img/texture.jpg);
+  padding: 130px 0;
+}
+
+.content h2 {
+  font-family: 'MuseoSansLight';
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #263238;
+  margin-bottom: 30px;
+}
+
+.content h2 span {
+  font-family: 'MuseoSansBlack';
+}
+
+.content p.info {
+  line-height: 30px;
+}
+
+.content .items {
+  margin-top: 90px;
+  font-size: 0;
+}
+
+.content .content-item {
+  display: inline-block;
+  width: 25%;
+  max-width: 270px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.content .content-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.content .content-item .img-wrapper {
+  width: 100%;
+  max-height: 270px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.content .content-item img {
+  width: 100%;
+  height: auto;
+}
+
+.content .content-item h3 {
+  font-family: 'MuseoSansBlack';
+  font-size: 30px;
+  color: #03a9f4;
+  margin-bottom: 10px;
+}
+
+.content .content-item h4 {
+  font-size: 18px;
+  font-family: 'MuseoSansBold';
+  color: #211f1f;
+  margin-bottom: 10px;
+}
+
+.content .content-item p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #211f1f;
+  margin-bottom: 25px;
+}
+
+.content .content-item a.btn {
+  font-family: 'MuseoSansLight';
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  max-width: 145px;
+  background-color: #ff5722;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.content .content-item a.btn:hover {
+  background-color: #03a9f4;
+}

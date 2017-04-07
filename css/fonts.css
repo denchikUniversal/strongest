@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "MuseoSansBlack";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSansBlack/MuseoSansBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansBlack/MuseoSansBlack.woff") format("woff"), url("../fonts/MuseoSansBlack/MuseoSansBlack.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MuseoSansRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSansRegular/MuseoSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansRegular/MuseoSansRegular.woff") format("woff"), url("../fonts/MuseoSansRegular/MuseoSansRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MuseoSansItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSansItalic/MuseoSansItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansItalic/MuseoSansItalic.woff") format("woff"), url("../fonts/MuseoSansItalic/MuseoSansItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MuseoSansBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSansBold/MuseoSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansBold/MuseoSansBold.woff") format("woff"), url("../fonts/MuseoSansBold/MuseoSansBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MuseoSansLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSansLight/MuseoSansLight.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansLight/MuseoSansLight.woff") format("woff"), url("../fonts/MuseoSansLight/MuseoSansLight.ttf") format("truetype");
+}
